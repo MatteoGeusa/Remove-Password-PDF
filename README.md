@@ -31,7 +31,8 @@ Place all your encrypted PDFs in the data folder.
 Create an .env file cloning the .env.example content, replace "password_for_pdf_unlock" with the actual password of the files.
 
 Run the script:
+    ```bash
     python main.py
-
+    ```
 ### ⚠️ Disclaimer
 This tool is intended for use with files where the user already knows the password. It is a management utility, not a decryption or "cracking" tool. Use responsibly and in accordance with local data privacy laws.
