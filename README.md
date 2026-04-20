@@ -11,7 +11,7 @@ Manually unlocking dozens of PDFs is time-consuming. This script automates the "
 ## ⚙️ Installation
 1. Clone this repository:
     ```bash
-    git clone [https://github.com/yourusername/pdf-batch-decryptor.git](https://github.com/yourusername/pdf-batch-decryptor.git)
+    git clone https://github.com/MatteoGeusa/Remove-Password-PDF
     ```
 2. Install the required dependency:
     ```bash
@@ -31,10 +31,7 @@ Place all your encrypted PDFs in the data folder.
 Create an .env file cloning the .env.example content, replace "password_for_pdf_unlock" with the actual password of the files.
 
 Run the script:
-
-    ```Bash
     python main.py
-    ```
 
 ### ⚠️ Disclaimer
 This tool is intended for use with files where the user already knows the password. It is a management utility, not a decryption or "cracking" tool. Use responsibly and in accordance with local data privacy laws.
